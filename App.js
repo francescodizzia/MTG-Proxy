@@ -47,18 +47,6 @@ class App extends Component{
     var set_list = [];
     var set_list2 = [];
 
-/*
-    if("card_faces" in data){
-      setData['data'].map(object => set_list.push({set_name: object['set_name'], image: this.encodeURL(object['card_faces'][0]['image_uris']['border_crop'])}));
-      setData['data'].map(object => set_list2.push({set_name: object['set_name'], image: this.encodeURL(object['card_faces'][1]['image_uris']['border_crop'])}));
-      cards.push({id: ++counter, name: data['name'] + " [0]", image: this.encodeURL(data['card_faces'][0]['image_uris']['border_crop']), quantity: quantity, sets: set_list, selected: 0});
-      cards.push({id: ++counter, name: data['name'] + " [1]", image: this.encodeURL(data['card_faces'][1]['image_uris']['border_crop']), quantity: quantity, sets: set_list2, selected: 0});
-    }
-    else{
-      setData['data'].map(object => set_list.push({set_name: object['set_name'], image: this.encodeURL(object['image_uris']['border_crop'])}));
-      cards.push({id: ++counter, name: data['name'], image: this.encodeURL(data['image_uris']['border_crop']), quantity: quantity, sets: set_list, selected: 0});
-    }
-*/
 
     if("card_faces" in data){
       setData['data'].map(object => set_list.push({set_name: object['set_name'], image: this.encodeURL(object['card_faces'][0]['image_uris']['border_crop'])}));

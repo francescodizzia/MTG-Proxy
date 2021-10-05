@@ -2,7 +2,7 @@ function Card(props) {
 
 
     return (
-        <div className="card-light mx-3 my-0 p-0" style={{width: '18rem', textAlign: 'center'}}>
+        <div className="card-light mx-auto my-0 p-0" style={{width: '18rem', textAlign: 'center'}}>
                 <img src={props.card.image} className="card-img-top" alt="..." />
                 <div className="card-body text-center text-white">   
                     <h5>{props.card.name}</h5>         
