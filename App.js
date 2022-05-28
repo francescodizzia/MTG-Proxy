@@ -6,7 +6,7 @@ import './App.css';
 import jsPDF from 'jspdf'
 
 var counter = 0;
-const proxyUrl = "https://proxy.mtgproxy.it/";
+const proxyUrl = "https://cors.mtgproxy.it/";
 
 class App extends Component{
   constructor(props){
